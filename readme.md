@@ -40,6 +40,6 @@ npm install --save quill-syntax-code-block-container-html
 
 ```html
 <script 
-  src="https://cdn.jsdelivr.net/npm/quill-syntax-code-block-container-html@1.0/dist/js/quill-syntax-code-block-container.js">
+  src="https://cdn.jsdelivr.net/npm/quill-syntax-code-block-container-html@1.0/dist/quill-syntax-code-block-container.js">
 </script>
 ```
