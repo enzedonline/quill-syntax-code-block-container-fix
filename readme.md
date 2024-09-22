@@ -27,6 +27,8 @@ The format will auto-register on load.
 >[!WARNING]
 >
 >Quill's default `code-block-container` is superceded by this format on load. 
+>
+>This format must loaded after Quill and before the editor is created.
 
 ### npm
 
