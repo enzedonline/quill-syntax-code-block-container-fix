@@ -1,6 +1,6 @@
 # Quill Syntax Code Block - `getSemanticHTML()` fix
 
-This custom format is written to address an [issue](https://github.com/slab/quill/issues/4289) with Quill's `code-block` html method which is repsonsible for the rendered html when calling `quill.getSemanticHTML()`.
+This custom format is written to address an [issue](https://github.com/slab/quill/issues/4289) with Quill's `code-block` html method which is responsible for the rendered html when calling `quill.getSemanticHTML()`.
 
 Quill's Syntax module highlights code with [`highlight.js`](https://highlightjs.org/), but the format rendered by `getSemanticHTML` is not one recognised by that library.
 
