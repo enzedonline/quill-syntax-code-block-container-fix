@@ -1,0 +1,31 @@
+{
+  "name": "quill-syntax-code-block-container-html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && webpack --config webpack.config.js"
+  },
+  "keywords": [
+    "quill",
+    "syntax",
+    "code",
+    "block",
+    "highlight",
+    "html",
+    "getsemantichtml",
+    "richtext"
+  ],
+  "author": "Enzed Online",
+  "license": "ISC",
+  "description": "Re-registers the syntax code-block-container format with an updated html output that is compatible with highlight.js: ",
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.2",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "quill": "^2.0.2"
+  },
+  "mode": "production"
+}
